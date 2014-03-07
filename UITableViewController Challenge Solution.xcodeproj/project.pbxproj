@@ -14,13 +14,13 @@
 		971D1CD518C9697B00756194 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 971D1CD418C9697B00756194 /* main.m */; };
 		971D1CD918C9697B00756194 /* ALYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 971D1CD818C9697B00756194 /* ALYAppDelegate.m */; };
 		971D1CDC18C9697B00756194 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 971D1CDA18C9697B00756194 /* Main.storyboard */; };
-		971D1CDF18C9697B00756194 /* ALYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 971D1CDE18C9697B00756194 /* ALYViewController.m */; };
 		971D1CE118C9697B00756194 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 971D1CE018C9697B00756194 /* Images.xcassets */; };
 		971D1CE818C9697B00756194 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971D1CE718C9697B00756194 /* XCTest.framework */; };
 		971D1CE918C9697B00756194 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971D1CC818C9697B00756194 /* Foundation.framework */; };
 		971D1CEA18C9697B00756194 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971D1CCC18C9697B00756194 /* UIKit.framework */; };
 		971D1CF218C9697B00756194 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 971D1CF018C9697B00756194 /* InfoPlist.strings */; };
 		971D1CF418C9697B00756194 /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 971D1CF318C9697B00756194 /* UITableViewController_Challenge_SolutionTests.m */; };
+		971D1CFF18C96AA300756194 /* ALYUITableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 971D1CFE18C96AA300756194 /* ALYUITableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		971D1CD718C9697B00756194 /* ALYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALYAppDelegate.h; sourceTree = "<group>"; };
 		971D1CD818C9697B00756194 /* ALYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALYAppDelegate.m; sourceTree = "<group>"; };
 		971D1CDB18C9697B00756194 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		971D1CDD18C9697B00756194 /* ALYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALYViewController.h; sourceTree = "<group>"; };
-		971D1CDE18C9697B00756194 /* ALYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALYViewController.m; sourceTree = "<group>"; };
 		971D1CE018C9697B00756194 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		971D1CE618C9697B00756194 /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		971D1CE718C9697B00756194 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		971D1CEF18C9697B00756194 /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		971D1CF118C9697B00756194 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		971D1CF318C9697B00756194 /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		971D1CFD18C96AA300756194 /* ALYUITableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALYUITableViewController.h; sourceTree = "<group>"; };
+		971D1CFE18C96AA300756194 /* ALYUITableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALYUITableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				971D1CD718C9697B00756194 /* ALYAppDelegate.h */,
 				971D1CD818C9697B00756194 /* ALYAppDelegate.m */,
 				971D1CDA18C9697B00756194 /* Main.storyboard */,
-				971D1CDD18C9697B00756194 /* ALYViewController.h */,
-				971D1CDE18C9697B00756194 /* ALYViewController.m */,
+				971D1CFD18C96AA300756194 /* ALYUITableViewController.h */,
+				971D1CFE18C96AA300756194 /* ALYUITableViewController.m */,
 				971D1CE018C9697B00756194 /* Images.xcassets */,
 				971D1CCF18C9697B00756194 /* Supporting Files */,
 			);
@@ -251,8 +251,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				971D1CD518C9697B00756194 /* main.m in Sources */,
-				971D1CDF18C9697B00756194 /* ALYViewController.m in Sources */,
 				971D1CD918C9697B00756194 /* ALYAppDelegate.m in Sources */,
+				971D1CFF18C96AA300756194 /* ALYUITableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

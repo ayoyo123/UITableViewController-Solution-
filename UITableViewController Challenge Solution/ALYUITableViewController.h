@@ -1,5 +1,5 @@
 //
-//  ALYViewController.h
+//  ALYUITableViewController.h
 //  UITableViewController Challenge Solution
 //
 //  Created by Alex Yeo  on 3/6/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ALYViewController : UIViewController
+@interface ALYUITableViewController : UITableViewController
 
 @end
